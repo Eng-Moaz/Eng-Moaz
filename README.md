@@ -10,11 +10,13 @@
 
 </div>
 
-## Building intelligence, understanding the system
+## About me
 
-I am an **AI Engineer and Computer Engineering student** focused on applied machine learning, retrieval systems, computer vision, and LLM-powered applications. I enjoy working below the abstraction layer too—building Go services, network protocols, command-line tools, and data-backed APIs to understand how reliable software works end to end.
+I'm an AI Engineer and Computer Engineering student at Suez Canal University. I spend most of my time building things with machine learning, retrieval systems, computer vision, and LLMs, then figuring out how to make them actually work in production.
 
-I am currently open to **AI/ML engineering, applied LLM, computer vision, and backend engineering internships and junior roles**.
+I also like getting my hands dirty with Go: HTTP servers, network protocols, CLIs, and database-backed APIs. Not because it's trendy, but because I want to understand the full stack my models sit on top of.
+
+Currently looking for **AI/ML, computer vision, or backend engineering internships and junior roles**.
 
 <div align="center">
 
@@ -22,74 +24,43 @@ I am currently open to **AI/ML engineering, applied LLM, computer vision, and ba
 
 </div>
 
-### About me, in code
+## What I've built
 
-```python
-class MoazMohammed:
-    def __init__(self):
-        self.role = "AI Engineer in training"
-        self.location = "Ismailia, Egypt"
-        self.current_quest = "Understand the magic before importing the library"
-        self.inventory = {
-            "Python": "for teaching machines",
-            "Go": "for understanding what the machines are standing on",
-            "C++": "for when milliseconds start asking questions",
-        }
-        self.favorite_problems = [
-            "search results that almost understand the question",
-            "models that perform brilliantly until the test set arrives",
-            "papers with one diagram and seventeen missing details",
-            "APIs that deserve a database and a proper README",
-        ]
+- Reproduced a **CVPR 2016** group activity recognition architecture and pushed it to **88.86% accuracy** (the paper reported 81.9%).
+- Built a search and RAG engine from scratch, going through TF-IDF, BM25, semantic retrieval, reciprocal rank fusion, CLIP multimodal search, reranking, and cited generation.
+- Shipped **Modaresy**, a tutor discovery product, in six weeks with a small team. Hit **60+ active users** and placed **3rd at the Creativa Startup Competition**.
+- Built computer vision, sequence modeling, and agentic AI projects using PyTorch, TensorFlow, Hugging Face, LangChain, and LangGraph.
+- Wrote a bunch of Go projects covering HTTP servers, TCP/UDP, PostgreSQL APIs, JWT auth, RSS aggregation, and CLI tools.
 
-    def learn(self, topic):
-        return topic.read().implement().break_it().measure().document()
+## Featured projects
 
-    def status(self):
-        return {
-            "curiosity": "unlimited",
-            "experiments_running": True,
-            "open_to_opportunities": True,
-        }
-```
-
-### Evidence over buzzwords
-
-- Reproduced and improved a **CVPR 2016** group-activity-recognition architecture, reaching **88.86% accuracy** versus the paper's 81.9% baseline.
-- Built a search and RAG engine from scratch across **TF-IDF, BM25, semantic retrieval, reciprocal-rank fusion, CLIP multimodal search, reranking, and cited generation**.
-- Delivered **Modaresy**, a live tutor-discovery product, in six weeks; reached **60+ active users** and won **3rd place** at the Creativa Startup Competition.
-- Implemented computer-vision, sequence-modeling, and agentic-AI projects with **PyTorch, TensorFlow, Hugging Face, LangChain, and LangGraph**.
-- Expanded into systems engineering through Go projects covering **HTTP, TCP/UDP, PostgreSQL-backed APIs, JWT authentication, RSS aggregation, and CLI tooling**.
-
-## Featured work
-
-| Project | Engineering highlights | Result |
+| Project | What's in it | Outcome |
 |---|---|---|
-| **[Deep Activity Recognition](https://github.com/Eng-Moaz/Deep-Activity-Recognition)** | ResNet-50 person features, hierarchical team pooling, temporal LSTMs, reproducible training, real-time overlay demo | **88.86% accuracy** · +6.96 points over published B8 baseline |
-| **[RAG Search Engine](https://github.com/Eng-Moaz/rag-search-engine)** | Hand-built inverted index, TF-IDF/BM25, sentence-transformer retrieval, RRF hybrid search, CLIP, cross-encoder reranking, Groq/Gemini RAG | Keyword → semantic → multimodal retrieval with evaluation |
-| **[Modaresy](https://www.modaresy.me/)** | Tutor discovery, curated profiles, video samples, direct WhatsApp booking; product and UI/UX ownership | Live in 6 weeks · 60+ users · Creativa 3rd place |
-| **[Chirpy](https://github.com/Eng-Moaz/chirpy)** | RESTful Go API with PostgreSQL, JWT + refresh-token auth, webhooks, profanity filtering, premium tier | Full backend authentication and data lifecycle |
-| **[RSS Aggregator](https://github.com/Eng-Moaz/RSSAggregator)** | Multi-user Go CLI, PostgreSQL persistence, background feed ingestion, least-recently-fetched scheduling | Concurrent data ingestion and feed following |
-| **[NYC Taxi Duration](https://github.com/Eng-Moaz/NYC-Taxi-Trip-Duration)** | End-to-end feature engineering and regression benchmark across linear models, forests, XGBoost, LightGBM, and CatBoost | Reproducible model comparison pipeline |
+| **[Deep Activity Recognition](https://github.com/Eng-Moaz/Deep-Activity-Recognition)** | ResNet-50 person features, hierarchical team pooling, temporal LSTMs, reproducible training, real-time overlay demo | **88.86% accuracy**, +6.96 pts over the published baseline |
+| **[RAG Search Engine](https://github.com/Eng-Moaz/rag-search-engine)** | Hand-built inverted index, TF-IDF/BM25, sentence-transformer retrieval, RRF hybrid search, CLIP, cross-encoder reranking, Groq/Gemini RAG | Full keyword-to-semantic-to-multimodal pipeline with evaluation |
+| **[Modaresy](https://www.modaresy.me/)** | Tutor discovery, curated profiles, video samples, direct WhatsApp booking; owned the product and UI/UX | Live in 6 weeks, 60+ users, Creativa 3rd place |
+| **[Chirpy](https://github.com/Eng-Moaz/chirpy)** | RESTful Go API with PostgreSQL, JWT + refresh-token auth, webhooks, profanity filtering, premium tier | Full backend auth and data lifecycle |
+| **[Roast My Taste](https://github.com/Eng-Moaz/roast-my-taste)** | LangChain agent with Groq (LLaMA 3.3 70B), DuckDuckGo search, conversation memory, custom Streamlit UI | A tool-using conversational agent with a snobbish personality |
+| **[NYC Taxi Duration](https://github.com/Eng-Moaz/NYC-Taxi-Trip-Duration)** | End-to-end feature engineering, regression benchmarks across linear models, random forests, XGBoost, LightGBM, CatBoost | Reproducible model comparison pipeline |
 
-## More systems and experiments
+## More projects
 
-- **Go and systems:** [Linko](https://github.com/Eng-Moaz/linko) · [Peril](https://github.com/Eng-Moaz/peril) · [Tubely](https://github.com/Eng-Moaz/tubely) · [HTTP From Scratch](https://github.com/Eng-Moaz/http-from-scratch) · [Forge CLI](https://github.com/Eng-Moaz/forge-cli) · [Pokédex](https://github.com/Eng-Moaz/pokedex)
-- **LLM engineering:** [Production RAG Engine](https://github.com/Eng-Moaz/production-rag-engine) · [Applied LLM Engineering](https://github.com/Eng-Moaz/Applied-LLM-Engineering) · [LLM Mastery](https://github.com/Eng-Moaz/llm_mastery)
-- **Applied ML:** [Fraud Detection](https://github.com/Eng-Moaz/Fraud-Detection-) · [Facial Emotion Recognition](https://github.com/Eng-Moaz/ieee-dl) · [Transient Plotter](https://github.com/Eng-Moaz/Transient-Plotter)
-- **Creative AI:** [Roast My Taste](https://github.com/Eng-Moaz/roast-my-taste) — a tool-using conversational agent with search, memory, and a custom Streamlit interface.
+- **My Setup:** [Neovim Config](https://github.com/Eng-Moaz/nvim)
+- **Go & systems:** [Linko](https://github.com/Eng-Moaz/linko) · [Peril](https://github.com/Eng-Moaz/peril) · [Tubely](https://github.com/Eng-Moaz/tubely) · [HTTP From Scratch](https://github.com/Eng-Moaz/http-from-scratch) · [Forge CLI](https://github.com/Eng-Moaz/forge-cli) · [Pokédex](https://github.com/Eng-Moaz/pokedex) · [RSS Aggregator](https://github.com/Eng-Moaz/RSSAggregator)
+- **LLM work:** [Production RAG Engine](https://github.com/Eng-Moaz/production-rag-engine) · [Applied LLM Engineering](https://github.com/Eng-Moaz/Applied-LLM-Engineering) · [LLM Mastery](https://github.com/Eng-Moaz/llm_mastery)
+- **Applied ML:** [Fraud Detection](https://github.com/Eng-Moaz/Fraud-Detection-) · [Facial Emotion Recognition](https://github.com/Eng-Moaz/ieee-dl) · [Transient Plotter](https://github.com/Eng-Moaz/Transient-Plotter) · [Asteroids](https://github.com/Eng-Moaz/asteroids)
 
-## Engineering toolkit
+## Tools I use
 
-### Languages and backend foundations
+### Languages & infrastructure
 
 <div align="center">
 
-[![Languages and backend foundations](https://skillicons.dev/icons?i=python,go,cpp,postgres,docker,git,github,linux&perline=8)](https://skillicons.dev)
+[![Languages and backend foundations](https://skillicons.dev/icons?i=python,go,cpp,postgres,docker,aws,rabbitmq,git,github,linux,neovim&perline=11)](https://skillicons.dev)
 
 </div>
 
-### Machine learning and intelligent systems
+### ML & AI
 
 <div align="center">
 
@@ -97,10 +68,12 @@ class MoazMohammed:
 
 </div>
 
-**Machine learning:** PyTorch · TensorFlow · Scikit-learn · Keras · XGBoost · LightGBM · CatBoost  
-**LLM & retrieval:** Hugging Face · LangChain · LangGraph · RAG · BM25 · sentence-transformers · CLIP  
+**Machine learning:** PyTorch · TensorFlow · Scikit-learn · Keras · OpenCV · XGBoost · LightGBM · CatBoost  
+**LLM & retrieval:** Hugging Face · LangChain · LangGraph · Groq · Gemini · RAG · BM25 · sentence-transformers · CLIP  
 **Data:** Pandas · NumPy · PostgreSQL · Matplotlib · Seaborn  
-**Software:** Python · Go · C++ · REST APIs · Git · Docker · Linux
+**Cloud & infra:** AWS S3/CloudFront · RabbitMQ · Docker · OpenTelemetry · Prometheus  
+**Apps & UI:** Streamlit  
+**Software:** Python · Go · C++ · REST APIs · Git · Linux · Neovim
 
 ## A principle worth sharing
 
@@ -123,25 +96,23 @@ class MoazMohammed:
 
 </div>
 
-## Education and current growth
+## Education
 
-**B.Sc. in Computer Engineering**, Suez Canal University — expected 2028  
-Coursework includes machine learning, deep learning, computer vision, algorithms, linear algebra, probability, and statistics.
+**B.Sc. in Computer Engineering**, Suez Canal University (expected 2028)  
+Coursework: machine learning, deep learning, computer vision, algorithms, linear algebra, probability, statistics.
 
-Currently strengthening the bridge between **AI experimentation and production software** through deeper work in retrieval, evaluation, Go, databases, networking, and deployment.
+### What I'm working on now
 
-### Current growth path
+- Turning experiments into tested, deployed services instead of just notebooks.
+- Getting better at the production side: observability, migrations, failure handling.
+- Building fewer projects but finishing them properly, with benchmarks, tests, and honest write-ups.
+- Combining ML depth with Go and backend fundamentals so I can own a feature end to end.
 
-- Turn strong experiments into tested and deployed services.
-- Deepen production habits around observability, security, migrations, and failure handling.
-- Build fewer projects more completely—with benchmarks, demos, tests, and honest limitations.
-- Combine AI depth with Go and backend fundamentals to own complete product features.
-
-## Let’s connect
+## Let's talk
 
 <div align="center">
 
-Open to internships, junior opportunities, collaborations, and technically ambitious projects in **AI/ML, applied LLMs, computer vision, and backend systems**.
+Open to internships, junior roles, collaborations, and interesting projects in **AI/ML, applied LLMs, computer vision, and backend systems**.
 
 **[LinkedIn](https://www.linkedin.com/in/moaz-mohammed-934a30307/) · [Email](mailto:moazmohammed198@gmail.com) · [Repositories](https://github.com/Eng-Moaz?tab=repositories)**
 
