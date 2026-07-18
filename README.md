@@ -70,13 +70,6 @@ Currently looking for **AI/ML, computer vision, or backend engineering internshi
 **Apps & UI:** Streamlit  
 **Software:** Python · Go · C++ · REST APIs · Git · Linux · Neovim
 
-## A principle worth sharing
-
-<div align="center">
-
-![Engineering advice](./assets/engineering-advice.svg)
-
-</div>
 
 ## GitHub activity
 
