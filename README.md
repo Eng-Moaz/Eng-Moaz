@@ -4,7 +4,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2700&pause=900&color=22D3EE&center=true&vCenter=true&width=860&lines=Building+intelligent+systems+from+first+principles.;RAG+%E2%80%A2+Computer+Vision+%E2%80%A2+Deep+Learning+%E2%80%A2+Go;Turning+research+and+ideas+into+working+software.)](https://git.io/typing-svg)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Moaz%20Mohammed-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/moaz-mohammed-934a30307/)
+
 [![Email](https://img.shields.io/badge/Email-moazmohammed198%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:moazmohammed198@gmail.com)
 [![Location](https://img.shields.io/badge/Ismailia-Egypt-4338CA?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
