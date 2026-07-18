@@ -18,11 +18,6 @@ I also like getting my hands dirty with Go: HTTP servers, network protocols, CLI
 
 Currently looking for **AI/ML, computer vision, or backend engineering internships and junior roles**.
 
-<div align="center">
-
-![Moaz's end-to-end AI engineering workflow](./assets/ai-engineering-flow.svg)
-
-</div>
 
 ## What I've built
 
@@ -89,10 +84,6 @@ Currently looking for **AI/ML, computer vision, or backend engineering internshi
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=Eng-Moaz&theme=transparent&hide_border=true&stroke=22D3EE&ring=22D3EE&fire=F59E0B&currStreakLabel=22D3EE&sideLabels=818CF8)](https://git.io/streak-stats)
 
-![Recent GitHub activity](https://github-readme-activity-graph.vercel.app/graph?username=Eng-Moaz&bg_color=111827&color=C7D2FE&line=6366F1&point=22D3EE&area=true&area_color=4338CA&hide_border=true&custom_title=Recent%20Learning%20%26%20Engineering%20Activity)
-
-![Contribution snake](https://raw.githubusercontent.com/Eng-Moaz/Eng-Moaz/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
-![Contribution snake](https://raw.githubusercontent.com/Eng-Moaz/Eng-Moaz/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
 </div>
 
