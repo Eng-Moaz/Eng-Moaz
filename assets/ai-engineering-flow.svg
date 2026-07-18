@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="205" viewBox="0 0 1000 205" role="img" aria-labelledby="title desc">
+  <title id="title">Moaz's end-to-end AI engineering workflow</title>
+  <desc id="desc">An animated workflow connecting Data and Research, Modeling, Evaluation, Backend, and Reliable Delivery.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="0.48" stop-color="#24235f"/>
+      <stop offset="1" stop-color="#083344"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#818cf8"/>
+      <stop offset="0.5" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="205" rx="26" fill="url(#background)"/>
+  <rect x="1" y="1" width="998" height="203" rx="25" fill="none" stroke="#4338ca" stroke-opacity="0.55"/>
+
+  <text x="500" y="37" text-anchor="middle" fill="#e0e7ff" font-family="Inter,Segoe UI,sans-serif" font-size="16" font-weight="700" letter-spacing="2.4">END-TO-END AI ENGINEERING</text>
+  <text x="500" y="60" text-anchor="middle" fill="#94a3b8" font-family="Inter,Segoe UI,sans-serif" font-size="12" letter-spacing="1">FROM EVIDENCE TO RELIABLE SOFTWARE</text>
+
+  <path d="M95 113 H905" stroke="#334155" stroke-width="7" stroke-linecap="round"/>
+  <path d="M95 113 H905" stroke="url(#flow)" stroke-width="3" stroke-linecap="round" stroke-dasharray="14 18">
+    <animate attributeName="stroke-dashoffset" from="64" to="0" dur="2.2s" repeatCount="indefinite"/>
+  </path>
+
+  <g font-family="Inter,Segoe UI,sans-serif" text-anchor="middle" fill="#e2e8f0" font-size="13" font-weight="650">
+    <g transform="translate(95 113)">
+      <circle r="20" fill="#171b3e" stroke="#818cf8" stroke-width="3"/>
+      <circle r="7" fill="#818cf8" filter="url(#glow)"><animate attributeName="r" values="6;9;6" dur="2s" repeatCount="indefinite"/></circle>
+      <text y="48"><tspan x="0">Data &amp;</tspan><tspan x="0" dy="16">Research</tspan></text>
+    </g>
+    <g transform="translate(298 113)">
+      <circle r="20" fill="#171b3e" stroke="#7275f3" stroke-width="3"/>
+      <circle r="7" fill="#7275f3" filter="url(#glow)"><animate attributeName="r" values="6;9;6" dur="2s" begin=".4s" repeatCount="indefinite"/></circle>
+      <text y="55">Modeling</text>
+    </g>
+    <g transform="translate(500 113)">
+      <circle r="20" fill="#171b3e" stroke="#6366f1" stroke-width="3"/>
+      <circle r="7" fill="#6366f1" filter="url(#glow)"><animate attributeName="r" values="6;9;6" dur="2s" begin=".8s" repeatCount="indefinite"/></circle>
+      <text y="55">Evaluation</text>
+    </g>
+    <g transform="translate(702 113)">
+      <circle r="20" fill="#123047" stroke="#38bdf8" stroke-width="3"/>
+      <circle r="7" fill="#38bdf8" filter="url(#glow)"><animate attributeName="r" values="6;9;6" dur="2s" begin="1.2s" repeatCount="indefinite"/></circle>
+      <text y="55">Backend</text>
+    </g>
+    <g transform="translate(905 113)">
+      <circle r="20" fill="#123047" stroke="#22d3ee" stroke-width="3"/>
+      <circle r="7" fill="#22d3ee" filter="url(#glow)"><animate attributeName="r" values="6;9;6" dur="2s" begin="1.6s" repeatCount="indefinite"/></circle>
+      <text y="48"><tspan x="0">Reliable</tspan><tspan x="0" dy="16">Delivery</tspan></text>
+    </g>
+  </g>
+</svg>
