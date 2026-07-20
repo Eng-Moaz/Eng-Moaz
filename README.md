@@ -10,6 +10,35 @@
 
 </div>
 
+```python
+class MoazMohammed:
+    def __init__(self):
+        self.role = "AI Engineer in training"
+        self.location = "Ismailia, Egypt"
+        self.current_quest = "Understand the magic before importing the library"
+        self.inventory = {
+            "Python": "for teaching machines",
+            "Go": "for understanding what the machines are standing on",
+            "C++": "for when milliseconds start asking questions",
+        }
+        self.favorite_problems = [
+            "search results that almost understand the question",
+            "models that perform brilliantly until the test set arrives",
+            "papers with one diagram and seventeen missing details",
+            "APIs that deserve a database and a proper README",
+        ]
+
+    def learn(self, topic):
+        return topic.read().implement().break_it().measure().document()
+
+    def status(self):
+        return {
+            "curiosity": "unlimited",
+            "experiments_running": True,
+            "open_to_opportunities": True,
+        }
+```
+
 ## About me
 
 I'm an AI Engineer and Computer Engineering student at Suez Canal University. I spend most of my time building things with machine learning, retrieval systems, computer vision, and LLMs, then figuring out how to make them actually work in production.
